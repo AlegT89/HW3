@@ -1,0 +1,17 @@
+public class Task2
+{
+    public static void main(String[] args)
+    {
+        int[] array = {9, 2, 6, 4, 5, 12, 7, 8, 6};
+        int maxvalue = array[0];
+        for (int i = 0; i < array.length; i ++)
+        {
+          if(maxvalue < array[i])
+          {
+              maxvalue = array[i];
+          }
+        }
+        System.out.println(maxvalue);
+    }
+
+}
